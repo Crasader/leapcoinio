@@ -1,0 +1,337 @@
+*{
+    padding:0;
+    margin:0;
+}        
+        html,
+body,
+.view {
+    height: 102%;
+}
+
+/*Intro
+        
+        
+        */
+        
+        
+
+.view {
+   /* background: url("https://mdbootstrap.com/images/regular/city/img%20(6).jpg")no-repeat center center fixed;*/
+     background: url("img/background2.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+@media (max-width: 768px) {
+    .full-bg-img,
+    .view {
+        height: auto;
+        position: relative;
+    }
+}
+ /* Navigation: IT MAKES IT NAVBAR TO CHANGE COLOR FROM TRANSPARENT TO BLUE AFTER SCROLLING DOWN*/
+
+.navbar {
+    background-color: transparent;
+}
+
+.top-nav-collapse {
+    background-color: white;
+}
+
+
+
+.top-nav-collapse h3{
+    color:#428bca;
+    font-weight: bold;
+}
+
+.top-nav-collapse b{
+    color: #428bca;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.top-nav-collapse p{
+      color: #428bca;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+
+
+ 
+
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        background-color: #1C2331;
+    }
+}
+
+/* Landing page: css that makes the landing page color on the transparent background visible*/
+    .description {
+    padding-top: 25%;
+    padding-bottom: 3rem;
+    color: #fff
+    }
+
+@media (max-width: 992px) {
+    .description {
+        padding-top: 7rem;
+        text-align: center;
+    }
+}   #navbarNav1{
+        
+        margin-left: 14%;
+        }
+        
+        #partyvendor{
+        font-size: 25px;
+            text-align: center;
+        }
+        
+        #stay{
+        text-align: center;
+        }
+        
+        .card-text{
+        text-align: center;
+        }
+        
+        .card-title{
+        text-align: center;
+            font-weight: bold;
+            color: black;
+            font-size: 15px;
+        }
+
+
+
+        .avatar{
+            background-color: #428bca;
+        }
+
+        .img-circle{
+
+            margin-left: 120px;
+            border-radius: 60%;
+            border: 4px solid white;
+            margin-top: 10px;
+        }
+
+        .testimonials{
+            text-align: center;
+        }
+
+         .img-thumbnail{
+                opacity:0.8;
+            }
+            
+        .img-thumbnail:hover{
+                transform: scale(1.1);
+                opacity: 2;
+                -webkit-transform:scale(1.1);
+                -moz-transform:scale(1.1);
+            }
+
+        #categoryicons{
+            font-size:70px;
+            color:#f4f4f4; 
+            background-color: white; 
+            border-radius: 50%; 
+        
+        }  //the css of the category icons for the vendors
+
+
+        #categorycaterers2{
+                color:white; 
+            font-weight:bold; 
+            margin-top: 6px; 
+            margin-left:33px; 
+            background-color:black;
+            border:2px solid white;
+            border-radius: 40px;
+        }
+
+  
+
+
+    #categoryphotographer2{
+        color:white; 
+        font-weight:bold; 
+        margin-top: 6px; 
+        margin-left:15px; 
+        background-color:black;
+        border:2px solid white;
+        border-radius: 40px;
+    }
+
+    #partyvendorcard{
+        color:white; 
+        font-weight:bold; 
+        margin-top: 6px; 
+        margin-left:80px; 
+        text-align: center;
+        background-color:black;
+        border:2px solid white;
+
+
+    }
+
+    .rating > span:hover:before {
+   content: "\2605";
+   position: absolute;
+
+}
+
+#star{
+    color:blue;
+    font-size: 20px;
+}
+
+#starrate{
+    color:black;
+    font-size: 20px;
+}
+
+    #coloricons{
+        color: black;
+    }
+
+    #headericons{
+        color: #428bca;
+        font-size: 18px;
+        margin-top: 7px;
+        background-color: white;
+        border-radius: 50%;
+    }
+
+    #dropdown a{
+        color:white;
+        top: 9px;
+        padding:0px 0px;
+    }
+
+    #dropdown li a{
+        color:black;
+        font-weight: bold;
+    }
+
+    #testimonialsimage{
+            height: 90px;
+            width: 90px;
+    }
+
+   .form{
+    padding: 0px 40px;
+}
+
+
+    
+    h6{
+        color: black;
+    }
+
+    /*Beginner header dropdown*/
+
+        #wrapper{
+            width: 150%;
+            border:1px solid white;
+            height:40%;
+            margin-left: -50%;
+            background-color:#428bca;
+            border-radius: 10px;
+           }
+
+           .dropdown-menu{
+            background-color: #428bca;
+           }
+        
+        .dropdownoptions{
+           padding-left: 45px;
+            
+        }
+
+        p a {
+            text-decoration: none;
+
+            
+        }
+
+        strong{
+            color: black;
+            font-weight: bold;
+        }
+    /*end header dropdown*/
+
+
+
+    #sideimage{
+font-size:120px;
+    color:black; 
+   
+    
+    margin-left:10px;
+    margin-top:33px;
+}
+
+#sideimagewrapper{
+background-color:white;
+    box-shadow:0px 2px 2px 2px rgba(0, 0, 0, 0.70); 
+    border:1px solid #428bca;  
+    margin-left: 45px;
+    border-radius:50%; 
+    width:50%; 
+    height:170px;
+     background-color: #f4f4f4;
+}
+
+.Bookingvendor{
+    margin-left: 10px;
+}
+
+.form{
+    padding: 0px 40px;
+}
+
+#selecting{
+    width: 310px;
+    
+  
+}
+
+li{
+    list-style: none;
+
+}
+
+
+
+#formimg{
+    border:1px solid gray;
+    border-radius: 10px;
+    width:210px;
+}
+
+.fa{
+    opacity: 0.9;
+}
+
+.fa:hover{
+    transform:scale(1.1);
+    opacity:2;
+    -webkit-transform:scale(1.1);
+    -moz-transform:scale(1.1);
+    color:white;
+}
+
+ #priser{
+            display:inline;
+            padding: 0px 20px;
+            margin-left: 10px;
+
+        }

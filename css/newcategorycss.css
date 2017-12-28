@@ -1,0 +1,130 @@
+        *{
+    padding:0;
+    margin:0;
+}        
+        html,
+body,
+.view {
+    height: 102%;
+}
+
+
+
+        .navbar {
+    background-color: transparent;
+}
+
+.top-nav-collapse {
+    background-color: white;
+}
+
+
+
+.top-nav-collapse h3{
+    color:#428bca;
+    font-weight: bold;
+}
+
+.top-nav-collapse b{
+    color: #428bca;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.top-nav-collapse p{
+      color: #428bca;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+        .dropdown{
+            display:none; 
+            
+            border-radius: 7px; 
+            
+        }
+
+        .rating{
+            margin-top: 15px;
+        }
+
+        .card-text{
+            margin-top: 15px;
+        }
+
+   #containerimage{
+    height:220px;
+   }
+
+
+.pagination li{
+    list-style: none;
+    float: left;
+    width: 30px;
+    height: 30px;
+    border:1px solid white;
+    background-color: blue;
+    color:white;
+    text-align: center;
+    cursor:pointer;
+
+}
+
+.pagination{
+    margin-left: 30%;
+   
+ 
+}
+
+.pagination ul{
+    border:0px;
+    padding:0px;
+
+}
+
+.pagination li:hover{
+    background-color: white;
+    border:1px solid black;
+    color: black;
+}
+
+.containersimage{
+    height: auto;
+    width:331px;
+   
+
+}
+
+#line2{
+    margin-top: 5px;
+}
+
+
+
+
+ .post{
+    border: 2px solid aliceblue; 
+    border-radius: 25px;
+ }
+
+ #advertisement{
+    border:1px solid gray; 
+    border-radius: 20px;
+ }
+
+ @media only screen and (max-width: 768px) {
+    .navbar {
+        background-color: #1C2331;
+    }
+}
+
+
+.dropdown-toggle::after{
+    display: none;
+}
+
+#partner{
+    height: 150px;
+    width: auto;
+}
